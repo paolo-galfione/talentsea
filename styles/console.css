@@ -1,0 +1,35 @@
+body {
+    height: 100vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 3em auto;   
+}
+
+.field {
+    margin: 0.5em;
+    flex: auto;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+label {
+    width: 3em;
+}
+
+input {
+    flex: auto;
+}
+
+button {
+    padding: 0.3em;
+    width: 10em;
+    margin: auto;
+}
